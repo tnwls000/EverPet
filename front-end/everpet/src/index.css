@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+:root {
+  --background-color: #fefcf7;
+  --main-color: #aeded3;
+  --darkmain-color: #9dc7bd;
+  --orange-color: #f8a565;
+  --pink-color: #f5c6c1;
+  --darkgreen-color: #3e7266;
+  --green-color: #b4d2c4;
+  --skyblue-color: #aeded3;
+  --modalbackground-color: #fffefb;
+  --gray-color: #e5e5e5;
+  --textfield-color: #646464;
+  --notselectedtab-color: #b9eadf;
+  --primary-color: #007bff;
+  --danger-color: #dc3545;
+}
+
+body {
+  background-color: var(--background-color); /* 원하는 배경색으로 변경 */
+  font-family: 'Noto Sans KR', sans-serif;
+  /* margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+
+  /* margin: 0;
+  padding: 0;
+  display: flex;
+  justify-items: center;
+  place-items: center;
+  font-family: Arial, sans-serif; */
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.responsive-image {
+  width: 55%;
+  height: auto;
+  max-width: 400px; /* 이미지 최대 너비 지정*/
+}
+
+.home-image {
+  display: flex;
+  flex-direction: column; /* 수직 정렬 */
+  justify-content: center; /* 수직 중앙 정렬 */
+  align-items: center; /* 수평 중앙 정렬 */
+  height: calc(100vh - 76px); /* 컨테이너가 화면 전체 높이를 차지하도록 설정 */
+  width: 100vw; /* 컨테이너가 화면 전체 너비를 차지하도록 설정 */
+  text-align: center;
+}
+
+/* @media (max-width: 768px) {
+  .responsive-image {
+    max-width: 500px;
+  }
+} */

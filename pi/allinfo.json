@@ -1,0 +1,20 @@
+{
+    "user": {
+        "userName": "장윤석",
+        "userID": "jys0445",
+        "userGender": "M",
+        "userAge": "26"
+    },
+    "robot": {
+        "name": "성표",
+        "personality": "도도",
+        "gender": "수컷",
+        "serialNumber": "AKXI37D82J93F"
+    },
+    "interaction": {
+        "diaryContinuity": 0
+    },
+    "friendship": {
+        "current": 3000
+    }
+}

@@ -1,0 +1,143 @@
+.diary-detail-container {
+  box-sizing: border-box;
+  margin: 0 200px;
+  text-align: center;
+}
+
+.diary-detail-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-delete-btns {
+  display: flex;
+}
+
+button {
+  white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 함 */
+}
+
+.diary-back-button {
+  background: none;
+  border: none;
+
+  --bs-btn-hover-bg: transparent; /* 호버 시 배경 색상 (조금 어두운 색상) */
+  --bs-btn-hover-border-color: transparent; /* 호버 시 테두리 색상 */
+
+  --bs-btn-active-bg: transparent; /* 활성화 시 배경 색상 (호버 색상보다 더 어두운 색상) */
+  --bs-btn-active-border-color: transparent; /* 활성화 시 테두리 색상 */
+
+  display: flex;
+}
+
+.edit-div {
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.save-cancel-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2%;
+}
+
+.diary-detail-date {
+  color: white;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4px 8px;
+  border-radius: 4px;
+  max-width: 120px;
+  margin-bottom: 2%;
+}
+
+.diary-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 4%;
+}
+
+.diary-image {
+  width: 35%;
+  height: auto;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.diary-text {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  height: 100%;
+}
+
+.edit-textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.diary-actions {
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+.diary-actions.visible {
+  display: flex;
+}
+
+.diary-edit-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.diary-edit-icon:hover,
+.diary-edit-icon:focus,
+.diary-edit-icon:active {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .diary-detail-container {
+    margin: 0 5%;
+  }
+
+  .diary-content-wrapper {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .diary-image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .diary-actions {
+    position: static;
+    margin-top: 16px;
+  }
+
+  .detail-btn {
+    display: flex;
+    align-items: center;
+    height: 85%;
+    width: auto;
+  }
+
+  .diary-detail-date {
+    max-width: 100px;
+    font-size: 15px;
+    margin-bottom: 4%;
+  }
+
+  .save-cancel-btns {
+    margin-top: 4%;
+  }
+}

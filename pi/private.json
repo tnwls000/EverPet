@@ -1,0 +1,19 @@
+{
+  "jetson": {
+    "ssid": "JetsonOrinAP",
+    "password": "123456789",
+    "url": "http://192.168.4.1:5000"
+  },
+  "esp32": {
+    "ssid": "ESP32-SoftAP",
+    "password": "123456789",
+    "url": "http://192.168.4.1"
+  },
+  "openai": {
+    "key": ""
+  },
+  "server": {
+    "ip": "3.38.101.255",
+    "url": "https://i11a101.p.ssafy.io:8081/diary/raspberry"
+  }
+}

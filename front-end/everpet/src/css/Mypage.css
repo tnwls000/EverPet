@@ -1,0 +1,48 @@
+.nav-tabs .nav-link {
+  color: black;
+  background-color: var(--green-color);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--pink-color);
+  border-color: var(--pink-color);
+}
+
+.nav-tabs .nav-link:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  margin: 10px;
+}
+
+.rounded-bottom-div {
+  border-radius: 0 0 10px 10px; /* 위쪽 모서리는 각지게, 아래쪽 모서리는 둥글게 */
+  /* 추가적인 스타일 속성 */
+  border: 1px solid #ccc; /* 테두리 추가 예시 */
+  padding: 20px; /* 내부 여백 추가 예시 */
+  background-color: #ffffff; /* 배경색 추가 예시 */
+  height: 75vh;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  #mypage-tabs {
+    white-space: nowrap;
+  }
+
+  #mypage-tabs .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 576px) {
+  #mypage-tabs .nav-link svg {
+    width: 25px;
+    height: 18px;
+  }
+}
