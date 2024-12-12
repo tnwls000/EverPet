@@ -20,6 +20,12 @@
 |PM/EM|BE/INFRA|EM|EM|EM|FE/DESIGN|
 |센서 및 통신|백엔드 총괄 및 서버 배포|로봇 프론트엔드 및 통신|음성인식|자율주행|프론트엔드 총괄 및 디자인, 3D 모델링|
 
+## Architecture
+<img src="https://github.com/user-attachments/assets/b124a76a-1c09-4d4f-87e4-c87f312f9cd3"  width="400"/>
+
+## ERD
+<img src="https://github.com/user-attachments/assets/97ef5a69-2826-486b-a992-6ea2efc0a881"  width="400"/>
+
 ## 😙 Stack
 ### Embedded
 
